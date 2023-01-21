@@ -6,5 +6,12 @@ Natural disasters and atmospheric anomalies demand remote monitoring and mainten
 ### Evaluation metrics
 Kappa score = 0.951
 Accuracy score = 0.962
+```
 
-...
+from sklearn.metrics import accuracy_score, cohen_kappa_score
+print(cohen_kappa_score(y_pred,y))
+print(accuracy_score(y_pred,y))
+
+0.951604915467337
+0.9627319257837492
+```
